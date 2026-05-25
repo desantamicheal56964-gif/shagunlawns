@@ -38,7 +38,7 @@ export default function About() {
               className="relative z-10 overflow-hidden rounded-2xl shadow-2xl border border-white/5"
             >
               <img
-                src="/src/assets/images/maharashtrian_wedding_couple_1779709877752.png"
+                src="/assets/images/maharashtrian_wedding_couple_1779709877752.png"
                 alt="Shagun Lawns authentic Maharashtrian wedding"
                 className="w-full h-[400px] md:h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -63,7 +63,7 @@ export default function About() {
               className="absolute -bottom-10 -left-6 w-1/2 overflow-hidden rounded-xl shadow-2xl border border-gold-900/40 z-20 hidden md:block"
             >
               <img
-                src="/src/assets/images/maharashtrian_wedding_ritual_1779709894582.png"
+                src="/assets/images/maharashtrian_wedding_ritual_1779709894582.png"
                 alt="Traditional Maharashtrian wedding ritual with glass bangles"
                 className="w-full h-[220px] object-cover"
                 referrerPolicy="no-referrer"
