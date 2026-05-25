@@ -2,6 +2,9 @@ import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { Sparkles, Compass, Mail, ChevronDown } from "lucide-react";
 
+// Dynamic image import to guarantee it is bundled by Vite
+import heroBgImg from "../assets/images/shagun_hero_lawn_1779640330473.png";
+
 interface HeroProps {
   onExploreClick: () => void;
   onInquiryClick: () => void;
@@ -114,7 +117,7 @@ export default function Hero({ onExploreClick, onInquiryClick, scrollProgress }:
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transform scale-105"
         style={{
-          backgroundImage: `url('/assets/images/shagun_hero_lawn_1779640330473.png')`,
+          backgroundImage: `url(${heroBgImg})`,
           transform: `scale(${1.05 + scrollProgress * 0.1}) translateY(${scrollProgress * 40}px)`,
           filter: "brightness(0.35) contrast(1.1)",
         }}
